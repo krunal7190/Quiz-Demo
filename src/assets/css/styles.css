@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap');
+body {
+    margin: 0; 
+    background-color: #f7f7f7;
+    font-family: 'Poppins', sans-serif;
+  }
+  h1{text-align: center;}
+  .quiz-form{max-width: 525px; margin:0px auto; padding:25px; background-color: #fff;}
+  .form-group{margin-top: 25px;}
+  select{width: 100%; font-size: 14px;  padding: 5px;}
+
+.result-header{background: #fff281;  padding: 15px;}
+
+/* Question css start */
+.question-wrapper{border-bottom: 1px solid #f6f6f6;    margin-bottom: 15px;}
+.question-text-wrapper{display: flex;}
+ .question-number span{display: block;  width: 25px;  height: 25px;  text-align: center;  background: #000; color: #fff;  border-radius: 25px;  margin-right: 15px;}
+ .question-text{font-size: 14px;}
+ .question-choices{margin: 15px 0px;list-style: none; padding: 0px;}
+ .question-choices li{display: inline-block; background-color: #f6f6f6; padding: 5px 10px; margin-right: 15px; margin-bottom: 15px; font-size: 14px; border-radius: 5px;  cursor: pointer;}
+
+ .question-appearing .question-text{font-weight: 600; margin-top:25px;}
+
+ .selected.wrong{background-color: red; color:#fff;}
+ .selected.correct{background-color: green!important; color:#fff;}
+
+ .quiz-result-wrapper .correct{background-color: green!important; color:#fff;}
+ .question-appearing .correct{background-color: blue!important; color:#fff;}
+/* Question css end */
+
+ button{padding: 10px 20px;  font-size: 16px;  background-color: #3F51B5;  border: 0px;  color: #fff;  margin: 0px auto;  display: block;  cursor: pointer;}
+ button:disabled{opacity: 0.3;}
